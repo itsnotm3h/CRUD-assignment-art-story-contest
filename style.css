@@ -1,0 +1,159 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+.mainArt {
+    width: 300px;
+}
+
+/* layout */
+
+.section {
+    min-height: 200px;
+}
+
+#contactUs {
+    overflow: hidden;
+}
+
+.textCenter {
+    text-align: left !important;
+    pointer-events: none;
+}
+
+.socialIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+/* font style */
+
+.mainHeader {
+    font-size: 4rem;
+    pointer-events: none;
+}
+
+.subHeader {
+    font-size: 3rem;
+    pointer-events: none;
+
+}
+
+.sentence{
+        font-size: 1.5rem;
+        pointer-events: none;
+    
+}
+
+.fontSmall {
+    font-size: 0.9rem;
+
+}
+
+.font1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    pointer-events: none;
+
+}
+
+
+.color1_Text {
+    color: #ff6666;
+}
+
+.color1_BG {
+    background-color: #ff6666;
+}
+
+.color2_text{
+    color:#d4d4d4;
+}
+
+/* Edit bootstrap default */
+
+textarea.inputStory{
+    background-color: rgba(255, 255, 255, 0.2);
+    color:white;
+    border:white;
+}
+
+input.inputAuthor{
+    background-color: rgba(255, 255, 255, 0.2);
+    color:white;
+    border:white;
+}
+
+
+.thumbPainting{
+    height: 40vh;
+    margin: 20px 0px;
+    /* background-color: #ff6666; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("./image/art4.1.jpg");
+}
+.storyLine{
+    position: relative;
+    width:95%;
+}
+
+.line{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+
+.storyInfo{
+    line-height: 1;
+    /* display: none!important; */
+}
+
+.authorName, .storyEdit, .storyDelete{
+    opacity: 0.5;
+}
+
+.storyEdit:hover{
+    color: #ff6666;
+    opacity: 1;
+    cursor: pointer;
+
+}
+.storyDelete:hover{
+    color: #ff6666;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.storySet{
+    width: 10%;
+}
+
+.storyBlock{
+    border-bottom:1px solid black;
+    cursor: default;
+}
+
+.storyBlock:hover{
+    border-bottom:1px solid white;
+    transition: all;
+}
+
+.storyContent{
+    word-wrap: break-word;
+}
+
