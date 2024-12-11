@@ -1,6 +1,6 @@
 # Assignment Art Story Contest
 
-The **Assignment Art Story Contest** is a creative web application where users can contribute to an ongoing story based on a painting. Each user submits a **story entry** that builds on the previous submissions, creating a collaborative narrative. The app supports CRUD (Create, Read, Update, Delete) operations for story entries, and participants can add to the story, edit their contributions, or delete them.
+The **Assignment Art Story Contest** is a creative web application where users can contribute to an ongoing story based on a painting. Each user submits a **story entry** that builds on the previous submissions, creating a collaborative narrative. The webpage supports CRUD (Create, Read, Update, Delete) operations for story entries, and participants can add to the story, edit their contributions, or delete them.
 
 ## Table of Contents
 1. [Overview](#overview)
